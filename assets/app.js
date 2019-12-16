@@ -1,18 +1,18 @@
 const BLACKLISTED_KEY_CODES = [ 38 ];
 const COMMANDS = {
-    help: "Supported commands: <span class=\"code\">about</span>, <span class=\"code\">experience</span>, <span class=\"code\">education</span>, <span class=\"code\">skills</span>, <span class=\"code\">corgi</span>",
-    about: "Hello 👋<br>As the domain suggests, my name is Chahat Chugh. I’m a full-stack developer currently living in Orlando, FL as I attend the University of Central Florida. I have a burning passion to want and help others with code that I create. I enjoy the limitless potential of impact that I can have with what I build. It is what pushes me every day to become a better engineer. Outside of coding, you can find me looking at corgis on Instagram!",
-    skills: "<span class=\"code\">Languages:</span> JavaScript, TypeScript, PHP, Java, Python, C<br><span class=\"code\">Technologies:</span> Node.js, Git, Docker, Linux, NGINX, Apache, MySQL<br><span class=\"code\">Frameworks:</span> Angular, React.js, Vue.js, Laravel, Flask, Bootstrap, Selenium",
-    education: "University of Central Florida<br>B.S. Information Technology — Emphasis in Software Engineering",
+    help: "Supported commands: <span class=\"code\">about</span>, <span class=\"code\">experience</span>, <span class=\"code\">education</span>, <span class=\"code\">skills</span>, <span class=\"code\">projects</span>",
+    about: "Hello 👋<br>As the domain suggests, my name is Chahat Chugh. I’m a full-stack developer currently living in Gurgaon .I want To be a part of an organisation that gives me ample opportunities to bring innovation and new ideas on board while leveraging my analytical skills and ‘go get it’ attitude . It is what pushes me every day to become a better engineer.",
+    skills: "<span class=\"code\">Languages:</span> JavaScript, C++<br><span class=\"code\">Technologies:</span> Node.js, Git, MongoDb , MySQL<br><span class=\"code\">Frameworks:</span> React.js , React Native , Angular",
+    education: "Graphic Era Deemed University <br> Computer Science (BATCH : 2015-2019)",
     resume: "<a href='./chahat_chugh_resume.pdf' class='success link'>resume.pdf</a>",
-    experience: "LSQ Funding Group (Jan. 2019 - April 2019) (Orlando, FL)<br>Software Engineer Intern",
-    // corgi: "My top 3 favorite corgis (click to view):<br><a href='https://www.instagram.com/bearorcorgi/' class='success link'>Bear</a>, <a href='https://www.instagram.com/lychee_the_corgi/' class='success link'>Mochee</a>, <a href='https://www.instagram.com/thecorgijack/' class='success link'>Jack</a>"
+    experience: "Kellton Tech Solutions Ltd . (04-02-2019 till Present)<br>Software Engineer",
+    projects: "1: Bajaj Capital (React.js and Node.js)<br> 2: Vestige (React Native)<br> 3: Zoylo (React native)"
 };
 let userInput, terminalOutput;
 
 const app = () => {
     userInput = document.getElementById('userInput');
-    terminalOutput = document.getElementById('terminalOutput');
+    terminalOutput = document.getElementById('terminalOutput')
     document.getElementById('dummyKeyboard').focus();
     console.log('Application loaded');
 };
