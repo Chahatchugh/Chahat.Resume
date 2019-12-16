@@ -6,7 +6,7 @@ const COMMANDS = {
     education: "University of Central Florida<br>B.S. Information Technology — Emphasis in Software Engineering",
     resume: "<a href='./chahat_chugh_resume.pdf' class='success link'>resume.pdf</a>",
     experience: "LSQ Funding Group (Jan. 2019 - April 2019) (Orlando, FL)<br>Software Engineer Intern",
-    corgi: "My top 3 favorite corgis (click to view):<br><a href='https://www.instagram.com/bearorcorgi/' class='success link'>Bear</a>, <a href='https://www.instagram.com/lychee_the_corgi/' class='success link'>Mochee</a>, <a href='https://www.instagram.com/thecorgijack/' class='success link'>Jack</a>"
+    // corgi: "My top 3 favorite corgis (click to view):<br><a href='https://www.instagram.com/bearorcorgi/' class='success link'>Bear</a>, <a href='https://www.instagram.com/lychee_the_corgi/' class='success link'>Mochee</a>, <a href='https://www.instagram.com/thecorgijack/' class='success link'>Jack</a>"
 };
 let userInput, terminalOutput;
 
