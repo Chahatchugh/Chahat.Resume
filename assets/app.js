@@ -2,7 +2,7 @@ const BLACKLISTED_KEY_CODES = [ 38 ];
 const COMMANDS = {
     help: "Supported commands: <span class=\"code\">about</span>, <span class=\"code\">experience</span>, <span class=\"code\">education</span>, <span class=\"code\">skills</span>, <span class=\"code\">projects</span>",
     about: "Hello 👋<br>As the domain suggests, my name is Chahat Chugh. I’m a full-stack developer currently living in Gurgaon .I want To be a part of an organisation that gives me ample opportunities to bring innovation and new ideas on board while leveraging my analytical skills and ‘go get it’ attitude . It is what pushes me every day to become a better engineer.",
-    skills: "<span class=\"code\">Languages:</span> JavaScript, C++<br><span class=\"code\">Technologies:</span> Node.js, Git, MongoDb , MySQL<br><span class=\"code\">Frameworks:</span> React.js , React Native , Angular",
+    skills: "<span class=\"code\">Languages:</span> JavaScript<br><span class=\"code\">Technologies:</span> Node.js, Git, MongoDb , MySQL , React.js , React Native",
     education: "Graphic Era Deemed University <br> Computer Science (BATCH : 2015-2019)",
     resume: "<a href='./chahat_chugh_resume.pdf' class='success link'>resume.pdf</a>",
     experience: "Kellton Tech Solutions Ltd . (04-02-2019 till Present)<br>Software Engineer",
